@@ -4,7 +4,7 @@ road <- function(x) {
   sin(x * 1.5 )
 }
 
-dots <- data.frame(x = c(-1, 1), y = c(-0.4, 0.4))
+dots <- data.frame(x = c(-1, 1), y = c(0, 0))
 
 border_up <- data.frame(x = c(-3, 0, 3), y = c(0, 2, 0))
 border_down <- data.frame(x = c(-3, 0, 3), y = c(0, -2, 0))
@@ -32,3 +32,4 @@ ggplot() +
         axis.title.y=element_blank(),legend.position="none",
         panel.background=element_blank(),panel.border=element_blank(),panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),plot.background=element_blank())
+
